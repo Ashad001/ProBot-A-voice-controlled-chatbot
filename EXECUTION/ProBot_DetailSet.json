@@ -1,0 +1,817 @@
+{
+    "intents_9": [
+        {
+            "tag": "Speed_Programming_time",
+            "time_start": "10 (round 1)",
+            "time_end": "12:30 (round 1)"
+        },
+        {
+            "tag": "Speed_Programming_venue",
+            "venue_name": "Lab 1, Lab 2 (Round 1) and Lab 3, Lab 4 (Round 2)"
+        },
+        {
+            "tag": "User_Interface/User_Experience_Competition_time",
+            "time_start": "10",
+            "time_end": "2"
+        },
+        {
+            "tag": "User_Interface/User_Experience_Competition_venue",
+            "venue_name": "Lab 6"
+        },
+        {
+            "tag": "Speed_Debugging_time",
+            "time_start": "1:30 (round 1) ",
+            "time_end": "5 (round 1)"
+        },
+        {
+            "tag": "Speed_Debugging_venue",
+            "venue_name": "Lab 1, Lab 2 (Round 1)"
+        },
+        {
+            "tag": "Web_Development_time",
+            "time_start": "1:30 (round 1) ",
+            "time_end": "5 (round 1)"
+        },
+        {
+            "tag": "Web_Development_venue",
+            "venue_name": "Lab 3, Lab 4 (Round 1)"
+        },
+        {
+            "tag": "Database_Design_time",
+            "time_start": "1:30 (round 1) ",
+            "time_end": "4:30 (round 1)"
+        },
+        {
+            "tag": "Database_Design_venue",
+            "venue_name": "C15, C16 (Round 1)"
+        },
+        {
+            "tag": "BlockChain_Development_time",
+            "time_start": "10 (Round 1) and 1:30 (Round 2)",
+            "time_end": "1 (Round 1) and 1:30 (Round 2)"
+        },
+        {
+            "tag": "BlockChain_Development_venue",
+            "venue_name": "E1, E2 (Round 1) and Lab 7 (Round 2)"
+        },
+        {
+            "tag": "Pseudowar_time",
+            "time_start": "1:30",
+            "time_end": "5"
+        },
+        {
+            "tag": "Pseudowar_venue",
+            "venue_name": "E1, E2"
+        },
+        {
+            "tag": "Hackathon__time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Hackathon__venue",
+            "venue_name": "A6, A7"
+        },
+        {
+            "tag": "Mobile_Application_Development_time",
+            "time_start": "10:00",
+            "time_end": "3"
+        },
+        {
+            "tag": "Mobile_Application_Development_venue",
+            "venue_name": "B10, B11"
+        },
+        {
+            "tag": "Data_Science__time",
+            "time_start": "10:00 (Round 1)",
+            "time_end": "1 (Round 1)"
+        },
+        {
+            "tag": "Data_Science__venue",
+            "venue_name": "Lab 7 (Round 1)"
+        },
+        {
+            "tag": "Capture_the_Flag__time",
+            "time_start": "... This competition will not place today",
+            "time_end": "... This competition will not place today"
+        },
+        {
+            "tag": "Capture_the_Flag__venue",
+            "venue_name": "... This competition will not place today"
+        },
+        {
+            "tag": "Game_Development_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Game_Development_venue",
+            "venue_name": "B9"
+        },
+        {
+            "tag": "Code_in_the_Dark_time",
+            "time_start": "10:00 (round 1)",
+            "time_end": "2  (round 1)"
+        },
+        {
+            "tag": "Code_in_the_Dark_venue",
+            "venue_name": "Lab 10 (Round 1)"
+        },
+        {
+            "tag": "Code_Sprint_time",
+            "time_start": "... This competition will not place today",
+            "time_end": "... This competition will not place today"
+        },
+        {
+            "tag": "Code_Sprint_venue",
+            "venue_name": "... This competition will not place today"
+        },
+        {
+            "tag": "Counter-Strike:_GO__time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Counter-Strike:_GO__venue",
+            "venue_name": "Lab 5, Lab 8, FYP Lab"
+        },
+        {
+            "tag": "DOTA_2_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "DOTA_2_venue",
+            "venue_name": "Lab 5, Lab 8, FYP Lab"
+        },
+        {
+            "tag": "FIFA_23_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "FIFA_23_venue",
+            "venue_name": "EE Conference Room"
+        },
+        {
+            "tag": "PUBG_Mobile_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "PUBG_Mobile_venue",
+            "venue_name": "E3, E6, C22"
+        },
+        {
+            "tag": "Tekken_7_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Tekken_7_venue",
+            "venue_name": "EE Conference Room"
+        },
+        {
+            "tag": "Counter-Strike_1.6_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Counter-Strike_1.6_venue",
+            "venue_name": "Lab 5, Lab 8, FYP Lab"
+        },
+        {
+            "tag": "Valorant_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Valorant_venue",
+            "venue_name": "Lab 5, Lab 8, FYP Lab"
+        },
+        {
+            "tag": "Freefire_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Freefire_venue",
+            "venue_name": "E3, E6, C22"
+        },
+        {
+            "tag": "Clash_Royale_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Clash_Royale_venue",
+            "venue_name": "C12"
+        },
+        {
+            "tag": "Robo_Race_time",
+            "time_start": "10:00",
+            "time_end": "1"
+        },
+        {
+            "tag": "Robo_Race_venue",
+            "venue_name": "CS Stairs"
+        },
+        {
+            "tag": "Robo_Combat_time",
+            "time_start": "1:30",
+            "time_end": "5"
+        },
+        {
+            "tag": "Robo_Combat_venue",
+            "venue_name": "BasketBall Ground"
+        },
+        {
+            "tag": "Robo_Sumo_time",
+            "time_start": "1:30",
+            "time_end": "5"
+        },
+        {
+            "tag": "Robo_Sumo_venue",
+            "venue_name": "BasketBall Ground"
+        },
+        {
+            "tag": "Hardware_Exhibition_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Hardware_Exhibition_venue",
+            "venue_name": "Masjid Ground"
+        },
+        {
+            "tag": "Circuit_Soldering_time",
+            "time_start": "10:00",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Circuit_Soldering_venue",
+            "venue_name": "Electronic's Lab"
+        },
+        {
+            "tag": "AutoCAD_time",
+            "time_start": "10:00 (round 1) and 1:30 (round 2)",
+            "time_end": "12:30 (round 1) and 4:30 (round 2)"
+        },
+        {
+            "tag": "AutoCAD_venue",
+            "venue_name": "Lab 11 (Round 1 and Round 2)"
+        },
+        {
+            "tag": "Bottle_Rocket_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Bottle_Rocket_venue",
+            "venue_name": "Masjid Ground"
+        },
+        {
+            "tag": "Drone_Evaluation_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Drone_Evaluation_venue",
+            "venue_name": "EE Ground"
+        },
+        {
+            "tag": "Robot_Soccer_time",
+            "time_start": "... This competition will not place today",
+            "time_end": "... This competition will not place today"
+        },
+        {
+            "tag": "Robot_Soccer_venue",
+            "venue_name": "... This competition will not place today"
+        },
+        {
+            "tag": "Spud_Gun_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Spud_Gun_venue",
+            "venue_name": "Masjid Ground"
+        },
+        {
+            "tag": "Chess_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Chess_venue",
+            "venue_name": "D21"
+        },
+        {
+            "tag": "Parlimentary_Debate_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Parlimentary_Debate_venue",
+            "venue_name": "A1, A8"
+        },
+        {
+            "tag": "Eat_All_You_Can__time",
+            "time_start": "12:00",
+            "time_end": "2:30"
+        },
+        {
+            "tag": "Eat_All_You_Can__venue",
+            "venue_name": "New Building"
+        },
+        {
+            "tag": "IQuest_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "IQuest_venue",
+            "venue_name": "4th Floor"
+        },
+        {
+            "tag": "Futsal_Tournament_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Futsal_Tournament_venue",
+            "venue_name": "Futsal Court"
+        },
+        {
+            "tag": "Photography_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Photography_venue",
+            "venue_name": "D22"
+        },
+        {
+            "tag": "Reels_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Reels_venue",
+            "venue_name": "D22"
+        },
+        {
+            "tag": "Taboo_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Taboo_venue",
+            "venue_name": "D23"
+        },
+        {
+            "tag": "Sketching_and_Painting_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Sketching_and_Painting_venue",
+            "venue_name": "C20 and C21"
+        },
+        {
+            "tag": "Math_Olympiad_time",
+            "time_start": "2:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Math_Olympiad_venue",
+            "venue_name": "Lab 6 and Lab 10"
+        },
+        {
+            "tag": "Human_Ludo_time",
+            "time_start": "10:00 (round 1) and 2:30 (round 2)",
+            "time_end": "12 (round 1) and 5 (round 2)"
+        },
+        {
+            "tag": "Human_Ludo_venue",
+            "venue_name": "New Building (Round 1 and Round 2)"
+        },
+        {
+            "tag": "Maze_time",
+            "time_start": "10:00",
+            "time_end": "5"
+        },
+        {
+            "tag": "Maze_venue",
+            "venue_name": "Masjid Ground"
+        }
+    ]
+    ,
+    "intents_10": [
+        {
+            "tag": "Speed_Programming_time",
+            "time_start": "9:00AM",
+            "time_end": "12:00"
+        },
+        {
+            "tag": "Speed_Programming_venue",
+            "venue_name": "Lab 1, Lab 2, E3, E4"
+        },
+        {
+            "tag": "User_Interface/User_Experience_Competition_time",
+            "time_start": "9:00 AM",
+            "time_end": "12:30"
+        },
+        {
+            "tag": "User_Interface/User_Experience_Competition_venue",
+            "venue_name": "Lab 6"
+        },
+        {
+            "tag": "Speed_Debugging_time",
+            "time_start": "12:30",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Speed_Debugging_venue",
+            "venue_name": "Lab 1, Lab 2"
+        },
+        {
+            "tag": "Web_Development_time",
+            "time_start": "12:30",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Web_Development_venue",
+            "venue_name": "Lab 6, Lab 7"
+        },
+        {
+            "tag": "Database_Design_time",
+            "time_start": "9:00 AM",
+            "time_end": "12"
+        },
+        {
+            "tag": "Database_Design_venue",
+            "venue_name": "Lab 7"
+        },
+        {
+            "tag": "BlockChain_Development_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "BlockChain_Development_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Pseudowar_time",
+            "time_start": "9:00 AM",
+            "time_end": "1"
+        },
+        {
+            "tag": "Pseudowar_venue",
+            "venue_name": "E1, E2"
+        },
+        {
+            "tag": "Hackathon__time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Hackathon__venue",
+            "venue_name": "A6, A7"
+        },
+        {
+            "tag": "Mobile_Application_Development_time",
+            "time_start": "9:00AM",
+            "time_end": "1:30 PM"
+        },
+        {
+            "tag": "Mobile_Application_Development_venue",
+            "venue_name": "B10, B11"
+        },
+        {
+            "tag": "Data_Science__time",
+            "time_start": "9:30 AM",
+            "time_end": "11:30"
+        },
+        {
+            "tag": "Data_Science__venue",
+            "venue_name": "A3, A4"
+        },
+        {
+            "tag": "Capture_the_Flag__time",
+            "time_start": "9:00AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Capture_the_Flag__venue",
+            "venue_name": "Lab 4 and Lab 5"
+        },
+        {
+            "tag": "Game_Development_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Game_Development_venue",
+            "venue_name": "B9"
+        },
+        {
+            "tag": "Code_in_the_Dark_time",
+            "time_start": "9:00 AM",
+            "time_end": "11:30 AM"
+        },
+        {
+            "tag": "Code_in_the_Dark_venue",
+            "venue_name": "Lab 10"
+        },
+        {
+            "tag": "Code_Sprint_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Code_Sprint_venue",
+            "venue_name": "Lab 11, Lab 12"
+        },
+        {
+            "tag": "Counter-Strike:_GO__time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Counter-Strike:_GO__venue",
+            "venue_name": "Lab 8, FYP Lab"
+        },
+        {
+            "tag": "DOTA_2_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "DOTA_2_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "FIFA_23_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "FIFA_23_venue",
+            "venue_name": "EE Conference Room"
+        },
+        {
+            "tag": "PUBG_Mobile_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "PUBG_Mobile_venue",
+            "venue_name": "E5, E6"
+        },
+        {
+            "tag": "Tekken_7_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Tekken_7_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Counter-Strike_1.6_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Counter-Strike_1.6_venue",
+            "venue_name": "Lab 8, FYP Lab"
+        },
+        {
+            "tag": "Valorant_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Valorant_venue",
+            "venue_name": "Lab 8, FYP Lab"
+        },
+        {
+            "tag": "Freefire_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Freefire_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Clash_Royale_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Clash_Royale_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Robo_Race_time",
+            "time_start": "12:30",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Robo_Race_venue",
+            "venue_name": "CS building Stairs"
+        },
+        {
+            "tag": "Robo_Combat_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Robo_Combat_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Robo_Sumo_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Robo_Sumo_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Hardware_Exhibition_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Hardware_Exhibition_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Circuit_Soldering_time",
+            "time_start": ".... this segment will not take place today",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Circuit_Soldering_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "AutoCAD_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "AutoCAD_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Bottle_Rocket_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Bottle_Rocket_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Drone_Evaluation_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Drone_Evaluation_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Robot_Soccer_time",
+            "time_start": "9:00 AM",
+            "time_end": "12"
+        },
+        {
+            "tag": "Robot_Soccer_venue",
+            "venue_name": "New Building"
+        },
+        {
+            "tag": "Spud_Gun_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Spud_Gun_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Chess_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Chess_venue",
+            "venue_name": "D21"
+        },
+        {
+            "tag": "Parlimentary_Debate_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Parlimentary_Debate_venue",
+            "venue_name": "A1, A8"
+        },
+        {
+            "tag": "Eat_All_You_Can__time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Eat_All_You_Can__venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "IQuest_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "IQuest_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Futsal_Tournament_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Futsal_Tournament_venue",
+            "venue_name": "Futsal Court"
+        },
+        {
+            "tag": "Photography_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Photography_venue",
+            "venue_name": "D22"
+        },
+        {
+            "tag": "Reels_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Reels_venue",
+            "venue_name": "D22"
+        },
+        {
+            "tag": "Taboo_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Taboo_venue",
+            "venue_name": "D23"
+        },
+        {
+            "tag": "Sketching_and_Painting_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Sketching_and_Painting_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Math_Olympiad_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Math_Olympiad_venue",
+            "venue_name": "N/A"
+        },
+        {
+            "tag": "Human_Ludo_time",
+            "time_start": "9:00 AM",
+            "time_end": "3:30"
+        },
+        {
+            "tag": "Human_Ludo_venue",
+            "venue_name": "Sports Room (behind Futsal court)"
+        },
+        {
+            "tag": "Maze_time",
+            "time_start": "... The competition is not held today...",
+            "time_end": "N/A"
+        },
+        {
+            "tag": "Maze_venue",
+            "venue_name": "N/A"
+        }
+    ]
+}

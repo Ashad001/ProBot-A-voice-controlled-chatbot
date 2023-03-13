@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProBot</title>
+  <link rel="icon" href="P.png" type="image">
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: rgb(2, 3, 34);
+    }
+
+    .text-box::-webkit-scrollbar {
+    width: 10px;
+    }
+
+    .text-box::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    }
+
+    .text-box::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    }
+
+    .text-box::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    }
+
+
+    .main_container {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(2, 3, 34);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .img_container{
+        align-self: start;
+        justify-self: start;
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .video-container {
+      max-width: 800px;
+      width: 100%;
+      height: auto;
+      align-self: start;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .video-container video {
+      display: block;
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      mix-blend-mode: lighten;
+    }
+
+    .text-box {
+      align-self: center;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      min-height: 42px;
+      padding: 10px;
+      border-radius: 50px;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #000000;
+      font-size: 18px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 0 2% 0 2%;
+      box-sizing: border-box;
+      resize: none;
+      overflow-y: auto;
+      max-height: calc(28px * 6);
+    }
+
+    .starter{
+        position: absolute;
+        top:5%;
+        color: none;
+        background-color: none;
+        max-width: 800px;
+        width: 400px;
+        height: 400px;
+        align-self: start;
+        border-radius: 100%;
+        z-index: 1;
+    }
+
+    #text_tag{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 20px;
+        align-self: center;
+        padding: 6px;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="img_container">
+        <img src="procom.png" alt="" >
+    </div>
+    <div class="main_container">
+        <div class="starter" id="start_button"></div>
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="AI.mp4" type="video/mp4">
+            </video>
+            <div id="text_tag">Tap the bubble to speak.</div>
+            <div class="text-box" contenteditable="false"></div>
+        </div>
+    </div>
+    <script>
+const texts = document.querySelector(".text-box");
+const textTag = document.querySelector('#text_tag');
+
+window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+const recognition = new window.SpeechRecognition();
+
+recognition.interimResults = false;
+
+let p = document.createElement("p");
+
+let listening = false;
+
+recognition.addEventListener("result", (e) => {
+  const text = Array.from(e.results)
+    .map((result) => result[0])
+    .map((result) => result.transcript)
+    .join("");
+  if (e.results[0].isFinal) {
+    const p = document.createElement("p");
+    p.innerText = "User: " + text;
+    texts.appendChild(p);
+  } else {
+    p.innerText = "User: " + text;
+  }
+  fetch("/receive-data", {
+    method: "POST",
+    body: JSON.stringify(text),
+    headers: {
+      "Content-Type": "application/json"
+    },
+  })
+  .then(response => response.text())
+  .then(data => {
+  console.log(data);
+  const p = document.createElement("p");
+  p.innerText = "ProBot: " + data;
+  texts.appendChild(p);
+})
+.catch(error => console.error(error));
+  console.log("User: " + text);
+});
+
+
+recognition.addEventListener("end", () => {
+  console.log("ProBot stopped listening.");
+  textTag.textContent = 'ProBot has stopped Listening. Tap to start...';
+  listening = false;
+});
+
+document.getElementById("start_button").addEventListener("click", () => {
+  if (!listening) {
+    console.log("ProBot is listening...");
+    textTag.textContent = "ProBot is listening..."
+    texts.appendChild(p);
+    recognition.start();
+    listening = true;
+  } else {
+    console.log("ProBot is already listening.");
+    textTag.textContent = "ProBot is already listening..."
+  }
+});
+
+    </script>
+</body>
+</html>
