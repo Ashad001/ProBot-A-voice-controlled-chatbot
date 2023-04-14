@@ -18,3 +18,4 @@ In the future, we plan to improve Probot's machine learning model to better unde
 
 ### Team Credits
 ...
+Maaz Imam
