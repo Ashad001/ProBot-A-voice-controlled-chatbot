@@ -15,3 +15,6 @@ Probot is currently deployed using PythonAnywhere, but it can be deployed to any
 
 ### Future Improvements
 In the future, we plan to improve Probot's machine learning model to better understand and respond to natural language inputs. We also plan to add more features, such as the ability to purchase tickets to Procom events through the chatbot.
+
+### Team Credits
+...
