@@ -17,7 +17,7 @@ Probot is currently deployed using PythonAnywhere, but it can be deployed to any
 In the future, we plan to improve Probot's machine learning model to better understand and respond to natural language inputs. We also plan to add more features, such as the ability to purchase tickets to Procom events through the chatbot.
 
 
-### credit-roll <img src="https://raw.githubusercontent.com/libscie/design/main/libscie-logomark-1024-square.png" align="right" height="64" />
+### credit-roll 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
